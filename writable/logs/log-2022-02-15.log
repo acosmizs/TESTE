@@ -1,0 +1,21 @@
+CRITICAL - 2022-02-15 18:13:37 --> Invalid file: teste.php
+#0 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('teste.php')
+#1 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('teste', Array, true)
+#2 C:\xampp\htdocs\ordem\app\Controllers\Teste.php(11): view('teste')
+#3 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Teste->index()
+#4 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+#5 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ordem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-02-15 18:35:00 --> syntax error, unexpected 'return' (T_RETURN)
+#0 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('teste')
+#1 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('teste')
+#2 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ordem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-02-15 18:54:20 --> Error connecting to the database: Unknown database 'teste-ci4'
+ERROR - 2022-02-15 18:54:55 --> Error connecting to the database: Unknown database 'teste-ci4'
+ERROR - 2022-02-15 18:55:08 --> Error connecting to the database: Unknown database 'teste-ci4'

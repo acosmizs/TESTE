@@ -1,0 +1,134 @@
+CRITICAL - 2022-02-16 08:43:03 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('minha', Array, true)
+#3 C:\xampp\htdocs\ordem\app\Controllers\Teste.php(29): view('minha', Array)
+#4 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Teste->minha()
+#5 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+#6 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ordem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-02-16 10:59:35 --> Table 'teste-ci4.cores' doesn't exist
+CRITICAL - 2022-02-16 12:40:07 --> syntax error, unexpected '<', expecting end of file
+#0 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('minha', Array, true)
+#2 C:\xampp\htdocs\ordem\app\Controllers\Teste.php(29): view('minha', Array)
+#3 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Teste->minha()
+#4 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+#5 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ordem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-02-16 15:28:13 --> Call to undefined function site_ulr()
+#0 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Home/index', Array, true)
+#3 C:\xampp\htdocs\ordem\app\Controllers\Home.php(13): view('Home/index', Array)
+#4 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ordem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-02-16 15:29:26 --> Call to undefined function site_ulr()
+#0 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Home/index', Array, true)
+#3 C:\xampp\htdocs\ordem\app\Controllers\Home.php(13): view('Home/index', Array)
+#4 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ordem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-02-16 15:29:28 --> Call to undefined function site_ulr()
+#0 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Home/index', Array, true)
+#3 C:\xampp\htdocs\ordem\app\Controllers\Home.php(13): view('Home/index', Array)
+#4 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ordem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-02-16 15:29:29 --> Call to undefined function site_ulr()
+#0 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Home/index', Array, true)
+#3 C:\xampp\htdocs\ordem\app\Controllers\Home.php(13): view('Home/index', Array)
+#4 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ordem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-02-16 16:17:02 --> Use of undefined constant Y - assumed 'Y' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\ordem\app\Views\Home\index.php(227): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 227, Array)
+#1 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Home/index', Array, true)
+#4 C:\xampp\htdocs\ordem\app\Controllers\Home.php(13): view('Home/index', Array)
+#5 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ordem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-02-16 18:00:15 --> Unknown column 'aivo' in 'field list'
+ERROR - 2022-02-16 18:04:23 --> Unknown column 'aivo' in 'field list'
+ERROR - 2022-02-16 18:06:37 --> Unknown column 'aivo' in 'field list'
+ERROR - 2022-02-16 18:10:25 --> Unknown column 'aivo' in 'field list'
+ERROR - 2022-02-16 18:22:16 --> Unknown column 'aivo' in 'field list'
+ERROR - 2022-02-16 18:23:41 --> Unknown column 'password' in 'field list'
+CRITICAL - 2022-02-16 19:33:37 --> Undefined property: App\Controllers\Usuarios::$usuariosModel
+#0 C:\xampp\htdocs\ordem\app\Controllers\Usuarios.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Usuarios->recuperaUsuarios()
+#2 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ordem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-16 19:34:16 --> Undefined property: App\Controllers\Usuarios::$usuariosModel
+#0 C:\xampp\htdocs\ordem\app\Controllers\Usuarios.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Usuarios->recuperaUsuarios()
+#2 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ordem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-16 19:47:27 --> Trying to get property 'imagem' of non-object
+#0 C:\xampp\htdocs\ordem\app\Controllers\Usuarios.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Usuarios->recuperaUsuarios()
+#2 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ordem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-16 21:34:05 --> fwrite(): write of 76 bytes failed with errno=22 Invalid argument
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'fwrite(): write...', 'C:\\xampp\\htdocs...', 995, Array)
+#1 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CLI\CLI.php(995): fwrite(Resource id #2, '\e[0;32mCodeIgni...')
+#2 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CLI\CLI.php(364): CodeIgniter\CLI\CLI::fwrite(Resource id #2, '\e[0;32mCodeIgni...')
+#3 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\Commands\Server\Serve.php(97): CodeIgniter\CLI\CLI::write('\e[0;32mCodeIgni...', 'green')
+#4 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\Commands\Server\Serve.php(114): CodeIgniter\Commands\Server\Serve->run(Array)
+#5 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CLI\Commands.php(63): CodeIgniter\Commands\Server\Serve->run(Array)
+#6 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(70): CodeIgniter\CLI\Commands->run('serve', Array)
+#7 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(56): CodeIgniter\CLI\CommandRunner->index(Array)
+#8 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(823): CodeIgniter\CLI\CommandRunner->_remap('index', 'serve')
+#9 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#10 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ordem\spark(63): CodeIgniter\CLI\Console->run()
+#13 {main}
+CRITICAL - 2022-02-16 21:34:05 --> Uncaught ErrorException: fwrite(): write of 2 bytes failed with errno=22 Invalid argument in C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CLI\CLI.php:995
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'fwrite(): write...', 'C:\\xampp\\htdocs...', 995, Array)
+#1 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CLI\CLI.php(995): fwrite(Resource id #2, '\r\n')
+#2 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CLI\CLI.php(364): CodeIgniter\CLI\CLI::fwrite(Resource id #2, '\r\n')
+#3 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\CLI\CLI.php(441): CodeIgniter\CLI\CLI::write()
+#4 C:\xampp\htdocs\ordem\app\Views\errors\cli\error_exception.php(6): CodeIgniter\CLI\CLI::newLine()
+#5 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\Debug\Exceptions.php(234): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ordem\vendor\codeigniter4\framework\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{clo
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
